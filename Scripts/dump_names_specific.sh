@@ -3,7 +3,7 @@ FILES="$@"
 
 LOGPATH='/home/pi/Scripts/logs/btmon'
 
-rm ~/names.txt
+rm ~/names.txt 2>/dev/null
 
 for pattern in "$@"
 do
